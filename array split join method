@@ -1,0 +1,7 @@
+
+
+x = %w[this is a-string-that-describes-how-an-array-of-strings-can-be manipulated]
+y = x.map{|n| n.split("-").join(" ")}
+puts y.inspect
+
+y.each { |d| puts d }
